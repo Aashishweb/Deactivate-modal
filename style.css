@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    
+   
+  }
+  
+
+  /* Deactivate button  */
+
+  .dtv-btn{
+      background-color: #DA292E;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+      transition: 0.2s all;
+      cursor: pointer;
+    
+  }
+
+  .dtv-btn:active{
+    transform: scale(0.98);
+
+  }
+
+  .right-btn{
+      float: right;
+      margin-top: 25px;
+      margin-right: 15px;
+  }
+
+/* close button style */
+
+  .close-btn{
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transition: 0.2s all;
+    cursor: pointer;
+    margin: 25px 5px 0px 0px ;
+  
+}
+
+  .close-btn:active{
+      transform: scale(0.98);
+  }
+
+
+  /* modal box with content */
+  #modal{
+      max-width: 505px;
+      height: 220px;
+      background: #FFFFFF;
+      box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      position: relative;
+      margin: 0 auto;
+      top: 30%;
+  }
+/* alert image */
+
+  img{
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      margin: 25px 30px;
+  }
+
+
+  #modal h1 {
+      padding-top: 30px;
+      margin-left: 90px;
+      font-size: 17px;
+      
+  }
+
+    #modal p {
+      font-size: 14px;
+      margin-left: 90px;
+      max-width: 380px;
+    
+  }
+/* style for hiding modal before click */
+
+  #overlay{
+      display: none;
+      margin: auto 0px;
+      top: 30%;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgb(1, 1, 1, 0.3);
+  }
+
+  /* open modal button style */
+
+  #open-modal-container{
+      text-align: center;
+  }
+
+
